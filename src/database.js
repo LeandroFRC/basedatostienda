@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+const mongoose = requiere('mongoose');
 import { MONGODB_URI } from "./config.js";
 
 export const connectDB = async () => {
